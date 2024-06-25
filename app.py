@@ -63,7 +63,7 @@ def send_message(sender_email, recipient_email, message_content):
 
 # Streamlit UI
 def main():
-    st.title("Simple Chat Application")
+    st.title("WeChat Application")
 
     if 'logged_in' not in st.session_state:
         st.session_state['logged_in'] = False
